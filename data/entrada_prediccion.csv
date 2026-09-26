@@ -1,0 +1,4 @@
+﻿asset_category,asset_classification,asset_criticality,asset_tipo,threat,vulnerability,probability,impact,treatment
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar
+hardware,uso interno,media,físico,falla eléctrica,equipos obsoletos,3,3,transferir
+documentación,interno,baja,físico,error humano,falta de capacitación,1,2,aceptar

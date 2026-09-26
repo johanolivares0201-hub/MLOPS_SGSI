@@ -1,0 +1,41 @@
+{
+    "nombre_proyecto": "MLOps SGSI - Gobierno Regional de Pasco",
+    "objetivo": "Predecir la posible materialización de un riesgo en un incidente de seguridad de la información.",
+    "modelo_final": "Regresión Logística",
+    "archivo_modelo": "modelo_sgsi_incidentes.joblib",
+    "variable_objetivo": "incidente_365_dias",
+    "clases": {
+        "0": "No incidente",
+        "1": "Incidente"
+    },
+    "variables_entrada": [
+        "asset_category",
+        "asset_classification",
+        "asset_criticality",
+        "asset_tipo",
+        "threat",
+        "vulnerability",
+        "probability",
+        "impact",
+        "treatment"
+    ],
+    "variables_categoricas": [
+        "asset_category",
+        "asset_classification",
+        "asset_criticality",
+        "asset_tipo",
+        "threat",
+        "vulnerability",
+        "treatment"
+    ],
+    "variables_numericas": [
+        "probability",
+        "impact"
+    ],
+    "hiperparametros_optimizados": {
+        "classifier__C": 0.01,
+        "classifier__class_weight": "balanced"
+    },
+    "criterio_seleccion": "Se priorizó el equilibrio entre Recall y F1-score, considerando especialmente la reducción de falsos negativos en el contexto del SGSI.",
+    "random_state": 42
+}

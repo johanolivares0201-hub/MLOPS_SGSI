@@ -1,0 +1,8 @@
+2026-09-26 02:07:48 | INFO | Inferencia realizada | modelo=Regresión Logística | prediccion=1 | resultado=Incidente | probabilidad_incidente=0.704784
+2026-09-26 02:40:04 | INFO | Inferencia realizada | modelo=Regresión Logística | prediccion=1 | resultado=Incidente | probabilidad_incidente=0.704784
+2026-09-26 02:40:10 | INFO | Inferencia realizada | modelo=Regresión Logística | prediccion=1 | resultado=Incidente | probabilidad_incidente=0.704784
+2026-09-26 02:55:11 | INFO | Inferencia realizada | modelo=Regresión Logística | prediccion=1 | resultado=Incidente | probabilidad_incidente=0.704784
+2026-09-26 02:57:52 | INFO | Inferencia realizada | modelo=Regresión Logística | prediccion=0 | resultado=No incidente | probabilidad_incidente=0.224139
+2026-09-26 03:07:21 | INFO | Inferencia realizada | modelo=Regresión Logística | registro=1 | prediccion=1 | resultado=Incidente | probabilidad_incidente=0.704784
+2026-09-26 03:07:21 | INFO | Inferencia realizada | modelo=Regresión Logística | registro=2 | prediccion=0 | resultado=No incidente | probabilidad_incidente=0.433827
+2026-09-26 03:07:21 | INFO | Inferencia realizada | modelo=Regresión Logística | registro=3 | prediccion=0 | resultado=No incidente | probabilidad_incidente=0.224139

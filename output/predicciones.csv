@@ -1,0 +1,10 @@
+﻿asset_category,asset_classification,asset_criticality,asset_tipo,threat,vulnerability,probability,impact,treatment,prediccion,resultado,probabilidad_incidente,fecha_prediccion
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 02:04:03
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 02:36:41
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 02:40:04
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 02:40:10
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 02:55:11
+documentación,interno,baja,físico,error humano,falta de capacitación,1,2,aceptar,0,No incidente,0.224139,2026-09-26 02:57:52
+información,confidencial,critica,digital,ransomware,ausencia de respaldos,5,5,mitigar,1,Incidente,0.704784,2026-09-26 03:07:21
+hardware,uso interno,media,físico,falla eléctrica,equipos obsoletos,3,3,transferir,0,No incidente,0.433827,2026-09-26 03:07:21
+documentación,interno,baja,físico,error humano,falta de capacitación,1,2,aceptar,0,No incidente,0.224139,2026-09-26 03:07:21
