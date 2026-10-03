@@ -6,6 +6,7 @@ import joblib
 import pandas as pd
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 
@@ -179,6 +180,23 @@ app = FastAPI(
     ),
     version="1.0.0"
 )
+
+# ============================================================
+# CORS - PLATAFORMA SGSI
+# ============================================================
+
+ORIGENES_PERMITIDOS = [
+    "https://main.dgg4ukovaowni.amplifyapp.com"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ORIGENES_PERMITIDOS,
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type", "Authorization"],
+)
+
 
 
 # ============================================================
